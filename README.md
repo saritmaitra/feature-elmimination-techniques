@@ -1,1 +1,5 @@
-# feature-elmimination-techniques
+# Feature-Elmimination-Techniques
+
+Feature selection method is a data pre-processing step in conjunction with machine learning for classification or regression purposes. The main motivation for reducing the dimensionality of the data and keeping the number of features as low as possible is to reduce the training time and enhance the classification accuracy of the algorithms we use; moreover, reduced dimensions provide a more robust generalization and a faster response with unseen data. Unlike feature extraction, feature selection does not alter the data.
+
+There are three main groups of feature selection in general: (1) wrapper, (2) embedded and (3) filter methods. Each group has it’s own pros and cons. We will not get into the details of these methods; here we will show how different techniques including mutual information (MI is filter method) can be applied to reduce the dimensionality and still retain 99% variance in the data. Here, advantage is that, with the reduced features, noise in the dataset can be eliminated; model can easily identify the signal from the reduced and relevant dataset and learn from it.
